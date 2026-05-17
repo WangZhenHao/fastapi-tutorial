@@ -15,3 +15,7 @@ nv sync
 uv run main.py
 
 ```
+
+接口文档：http://localhost:8000/docs
+
+地址：https://github.com/techwithtim/FastAPIPhotoVideoSharing

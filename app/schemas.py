@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+
+class PostCreate(BaseModel):
+    title: str
+    content: str
+
+
+class PostReturn(BaseModel):
+    id: int
+    title: str
+    content: str
